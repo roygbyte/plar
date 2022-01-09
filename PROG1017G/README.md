@@ -3,6 +3,40 @@
 - Demonstrate how to develop algorithms using pseudocode and flow charts to solve problems.
 - Demonstrate how to translate specifications to program code.
 
+
+## Competencies ##
+
+### Competency 1 ###
+Utilize an object-oriented language implemented using a development environment and associated tools.
+
+Demonstrate how to create programs using the integrated development environment and tools, including: 
+
+1. [Toolbox](#c-1-toolbox) 
+2. [Solution Explorer](#c-1-solution-explorer)
+3. [Properties](#c-1-properties)
+4. [Breakpoints](#c-1-breakpoints)
+5. [Debugging tools](#c-1-debugging)
+6. [Use of menu](#c-1-use-of-menu)
+7. [Use of Shortcut icons](#c-1-use-of-shortcut-icons)
+
+### Competency 2 ###
+Apply problem solving abilities in developing program designs from specifications.
+
+This competency includes has 2 objectives to be demonstrated.
+
+1. [Demonstrate how to develop algorithms using pseudocode and flow charts to solve problems.](#c-2-1) (WIP)
+2. [Demonstrate how to translate specifications to program code.](#c-2-2) (WIP)
+
+### Competency 3 ###
+Write programs according to specifications using fundamental programming constructs including selection structures, loops, sub procedures and functions.
+
+This competency includes 3 objectives to be demonstrated.
+
+1. [Demonstrate use of more than one selection structure.](#c-3-1)
+2. [Demonstrate use of more than one loop.](#c-3-2)
+3. [Demonstrate how to use functions by creating your own methods to send and return data.](#c-3-3)
+
+
 # Overview of Project #
 
 In my spare time, I have been working on a plugin for my KOReader-powered Kobo. [KOReader](https://koreader.rocks), for the unitiated, is an open-source document viewer for e-ink devices. When I got my Kobo in November 2020, the promise of developing my own plugins using KOReader was far more exciting to me than actually, you know... reading.
@@ -102,6 +136,7 @@ function Puzzle:getNextIndexForDirection(index, direction)
 end
 ```
 
+<a name="c-3-3"></a>
 > **Competency 3**
 > Demonstrate how to use functions by creating your own methods to send and return data
 
@@ -146,7 +181,8 @@ function Solve:init(puzzle_size, puzzle_grid_nums)
     end
 end
 ```
-
+<a name="c-3-1"></a>
+<a name="c-3-2"></a>
 > **Competency 3**
 > Demonstrate use of more than one selection structure.  
 > Demonstrate use of more than one loop.
@@ -209,6 +245,8 @@ First: `C-h m` translates to "Hold down control and press the 'h' key. Then rele
 
 Second: "buffers" are ["an interface between Emacs and a file or process."](https://smythp.com/emacs_buffers/) They hold the text of whatever it is you are looking at. If it's a Markdown file, like this document, you would see all of the special characters and formatting. If it's a PNG file, you would see all of the garbly-goop byte code (there are extensions you can install to see the visual representation of the PNG file, too). Buffers don't have to be visible to be active. Most often, I have dozens of open buffers representing all of the files in use by a project. To display a buffer in the window, I call it up using `C-x b <filename>`, where "filename" is the name of the file I want to see (and also the unique ID of the buffer [all buffers have a unique ID]). A neat thing about buffers is that a single buffer can be shown multiple times in an Emacs frame. For instance, I could split the Emacs frame into two side-by-side windows by using `C-x 3`. Then, I could open this file in the first buffer by invoking `C-x b README.md`, switch to the second buffer with `C-x o`, and open the buffer in the second window by invoking `C-x b README.md` again. Then I can have the first window viewing the top of the file (perhaps looking at the instructions I've set out for myself), and have the second window to me the area of the file I'm actively writting. 
 
+<a name="c-1-use-of-menu"></a>
+<a name="c-1-use-of-shortcut-icons"></a>
 >**Competency 1**
 >Demonstrate how to create programs using the integrated development environment and tools, including:
 >
@@ -217,6 +255,9 @@ Second: "buffers" are ["an interface between Emacs and a file or process."](http
 
 Compared to some folks, I run Emacs pretty lean. I don't take full advantage of Emacs extensions which would be analogues of Visual Studio's "Toolbox" or "Solution Explorer." To be fair, I'm just getting started in my Emacs journey, so what those analogues would be, I'm not entirely sure. Way back when I used Intellij IDEA (before I had even heard of Visual Studio Code), there was a method explorer I used when developing Android apps. I recall finding this handy, sure. Given the size of Android apps (with their complex Views, Contexts, and whatever), it was a welcomed feature. However, not having this feature for PHP web development and Lua development doesn't seem to bother me at the moment. Because of Emacs' ability to easily open multiple views into a single file, I am able to maintain a workflow where I have my reference to the code I'm working on displayed on one side of the frame, and the work area on the other side.
 
+<a name="c-1-properties"></a>
+<a name="c-1-toolbox"></a>
+<a name="c-1-solution-explorer"></a>
 >**Competency 1**
 >Demonstrate how to create programs using the integrated development environment and tools, including:
 >
@@ -299,6 +340,8 @@ When it comes time to testing the plugin on a e-ink device, such as my Kobo Libr
 scp -r --exclude='.*' crossword.koplugin/ root@192.168.2.16:/mnt/onboard/.adds/koreader/plugins/crossword.koplugin/
 ```
 
+<a name="c-1-breakpoints"></a>
+<a name="c-1-debugging-tools"></a>
 >**Competency 1**
 > Demonstrate how to create programs using the integrated development environment and tools, including:
 >
