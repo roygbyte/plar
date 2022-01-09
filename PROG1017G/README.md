@@ -4,6 +4,7 @@ This file contains documentation towards NBCC class PROG1017G.
 
 ## Competencies ##
 
+<a name="c-1"></a>
 ### [Competency 1](#c-1) ###
 Utilize an object-oriented language implemented using a development environment and associated tools.
 
@@ -25,6 +26,7 @@ This competency includes has 2 objectives to be demonstrated.
 1. [Demonstrate how to develop algorithms using pseudocode and flow charts to solve problems.](#c-2-1) (WIP)
 2. [Demonstrate how to translate specifications to program code.](#c-2-2) (WIP)
 
+<a name="c-3"></a>
 ### [Competency 3](#c-3) ###
 Write programs according to specifications using fundamental programming constructs including selection structures, loops, sub procedures and functions.
 
