@@ -1,12 +1,10 @@
-# Instructions #
+# Overview #
 
-- Demonstrate how to develop algorithms using pseudocode and flow charts to solve problems.
-- Demonstrate how to translate specifications to program code.
-
+This file contains documentation towards NBCC class PROG1017G. 
 
 ## Competencies ##
 
-### Competency 1 ###
+### [Competency 1](#c-1) ###
 Utilize an object-oriented language implemented using a development environment and associated tools.
 
 Demonstrate how to create programs using the integrated development environment and tools, including: 
@@ -27,7 +25,7 @@ This competency includes has 2 objectives to be demonstrated.
 1. [Demonstrate how to develop algorithms using pseudocode and flow charts to solve problems.](#c-2-1) (WIP)
 2. [Demonstrate how to translate specifications to program code.](#c-2-2) (WIP)
 
-### Competency 3 ###
+### [Competency 3](#c-3) ###
 Write programs according to specifications using fundamental programming constructs including selection structures, loops, sub procedures and functions.
 
 This competency includes 3 objectives to be demonstrated.
